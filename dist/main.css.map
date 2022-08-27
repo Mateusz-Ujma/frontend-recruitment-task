@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css","sourcesContent":[]}
+{"version":3,"sources":["main.scss","main.css"],"names":[],"mappings":"AACA,KACC,eCAD","file":"main.css","sourcesContent":["$color:#333;\r\nbody{\r\n background: #000;\r\n}","body {\n  background: #000;\n}"]}
