@@ -1,3 +1,5 @@
+"use strict";
+
 const { src, dest, watch, series, parallel } = require('gulp');
 
 const sourcemaps = require('gulp-sourcemaps');
@@ -48,6 +50,7 @@ function watchTask() {
 }
 
 exports.default = series(
+
     parallel(scssTask, jsTask),
     cacheBustTask,
     watchTask

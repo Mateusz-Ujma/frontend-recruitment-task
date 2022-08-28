@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Mateusz Ujma - Recruitment task</title>
     <link rel="stylesheet" href="/dist/main.css">
-    <script defer src="/dist/all.js"></script>
+    <script defer src="/dist/all.js" type="module"></script>
 </head>
 
 <body>
@@ -21,9 +21,11 @@
         <button class="main-btn">Button</button>
     </main>
 
-    <div class="popup">
+    <div class="popup invisible" id="alert-popup">
+        <div class="popup-bg"></div>
         <div class="popup-window">
             <button class="popup-window-btn">X</button>
+            <button class="popup-window-resetbtn invisible">Reset</button>
             <div class="popup-window-title">Alert</div>
             <div class="popup-window-content">You have clicked<span class="popup-window-content-bold"> X times</span> to
                 related button.</div>
