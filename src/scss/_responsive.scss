@@ -1,0 +1,103 @@
+@include media-sm {
+ .main {
+  &-img {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 96px;
+   width: 390px;
+   height: 200px;
+  }
+
+  &-title {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 350px;
+  }
+  &-copy {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 400px;
+  }
+  &-btn {
+   left: 90px;
+   right: 0;
+
+   top: 530px;
+  }
+ }
+
+ .popup {
+  &-window {
+   position: absolute;
+   width: 420px;
+   height: 250px;
+
+   &-title {
+    left: 130px;
+    top: 50px;
+   }
+   &-content {
+    left: 60px;
+    top: 120px;
+   }
+   &-resetbtn {
+    top: 170px;
+    left: 155px;
+   }
+  }
+ }
+}
+
+@include media-md {
+ .main {
+  &-img {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 96px;
+   width: 505px;
+   height: 330px;
+  }
+  &-title {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 480px;
+  }
+  &-copy {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 550px;
+  }
+  &-btn {
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   top: 680px;
+  }
+ }
+ .popup {
+  &-window {
+   position: absolute;
+   width: 580px;
+   height: 250px;
+
+   &-title {
+    left: 100px;
+    top: 60px;
+   }
+   &-content {
+    left: 60px;
+    top: 140px;
+   }
+   &-resetbtn {
+    top: 180px;
+    left: 480px;
+   }
+  }
+ }
+}
